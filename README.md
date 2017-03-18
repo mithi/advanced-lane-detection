@@ -1,3 +1,7 @@
+Built an advanced lane-finding algorithm using distortion correction, image rectification, color transforms, and gradient thresholding. Identified lane curvature and vehicle displacement. Overcame environmental challenges such as shadows and pavement changes
+
+---
+
 In this project, I have used computer vision techniques to identify lane boundaries and compute the estimate the radius of curvature given a frame of video of the road.  
 To achieve this, the following steps are taken:
 - Computed the camera calibration matrix and distortion coefficients of the camera lens used given a set of chessboard images taken by the same camera
