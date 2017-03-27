@@ -14,18 +14,18 @@ To achieve this, the following steps are taken:
 - Output a visual display of the lane boundaries and other related information 
 
 ### Writeup
-- https://github.com/mithi/self-driving-project-4/blob/master/WRITEUP.pdf
+- WRITEUP.pdf
 
 ### Video Output
-- https://github.com/mithi/self-driving-project-4/blob/master/project_video_output.mp4
-- https://github.com/mithi/self-driving-project-4/blob/master/project_video_verbose_output.mp4
+- project_video_output.mp4
+- project_video_verbose_output.mp4
 
 ### Pipeline
-- https://github.com/mithi/self-driving-project-4/blob/master/pipeline.ipynb
-- https://github.com/mithi/self-driving-project-4/blob/master/pipeline_verbose.ipynb
+- pipeline.ipynb
+- pipeline_verbose.ipynb
 
 ### Classes
-- ChessBoard - https://github.com/mithi/self-driving-project-4/blob/master/chessboard.py
-- BirdsEye - https://github.com/mithi/self-driving-project-4/blob/master/birdseye.py
-- LaneFilter - https://github.com/mithi/self-driving-project-4/blob/master/lanefilter.py
-- Curves -https://github.com/mithi/self-driving-project-4/blob/master/curves.py
+- ChessBoard - chessboard.py
+- BirdsEye - birdseye.py
+- LaneFilter - lanefilter.py
+- Curves - curves.py
