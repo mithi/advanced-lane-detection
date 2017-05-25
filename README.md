@@ -29,13 +29,14 @@ from scipy.misc import imread
 from moviepy.editor import VideoFileClip
 from IPython.display import HTML
 ```
-- To run any notebook properly, copy the jupyter notebooks from the `/notebook` folder to the `root` directory for them to see relevant files, most importantly the python classes. 
+- To run any notebook properly, copy the jupyter notebooks from the `/notebook` folder to the `root` directory
+- This is so that each notebook sees to see relevant files, the most relevant files being the python classes. 
 
 # Relevant Links
 
 - My Medium article
 - - https://medium.com/@mithi/advanced-lane-finding-using-computer-vision-techniques-7f3230b6c6f2
-- My submitted technical writeup 
+- My submitted detailed technical writeup 
 - - https://github.com/mithi/advanced-lane-detection/blob/master/WRITEUP.pdf
 - Udacity's project page
 - - https://github.com/udacity/CarND-Advanced-Lane-Lines
