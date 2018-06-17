@@ -1,0 +1,17 @@
+Notes on parameter tweaking (from the reviewer)
+
+max_line_gap 
+- maximum distance(in pixels) between segments that will be allowed to connect into a single line.
+
+min_line_len 
+- minimum length of a line (in pixels) that we will accept in the output
+
+1. Increasing min_line_len and max_line_gap(~100 and above) for Hough Transform will make your lines longer and will have less number of breaks.(this will make the solid annotated line longer in the output)
+
+2. Increasing max_line_gap will allow points that are farther away from each other to be connected with a single line. threshold increasing(~ 50-60) will rule out the spurious lines.(defines the minimum number of intersections in a given grid cell that are required to choose a line.)
+
+3. kernel-size in the Gaussian Filter will remove the noise making the image less blurry. Must be an odd number (3, 5, 7...)
+
+4. Use rho value of 2 or 1 which gives distance resolution in pixels of the Hough grid
+
+5. Can a different colour space be used to make the pipeline more robust. (HSL, YUV etc)
